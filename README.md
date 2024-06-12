@@ -11,7 +11,8 @@ To run this project:
 <br/>
 <li>Clone this repository</li>
 <li>cd to the project folder</li>
-<li>Open terminal and run `compose install` to install all the dependencies</li>
-<li>Create a copy of the.env file using the following command: `cp .env.example .env`</li>
-<li>Generate the APP_KEY using the command: `php artisan key:generate` and after this check your .env file if the APP_KEY is present or not.</li>
-<li>Then finally to run the project: `php artisan serve` command.</li>
+<li>Open terminal and run ` compose install ` to install all the dependencies</li>
+<li>Create a copy of the.env file using the following command: ` cp .env.example .env `</li>
+<li>Generate the APP_KEY using the command: ` php artisan key:generate ` and after this check your .env file if the APP_KEY is present or not.</li>
+<li>Then finally to run the project: ` php artisan serve ` command.</li>
+<li>The project is setup on route '/json'</li>
